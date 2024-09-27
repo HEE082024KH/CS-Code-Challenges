@@ -38,10 +38,10 @@ class Program
             one.CheckIfNumberIsPositiveOrNegative(i);
             Console.WriteLine();
 
-            // // Challenge two
-            // Challenge_two two = new Challenge_two();
-            // two.GuessNumber();
-            // Console.WriteLine();
+            // Challenge two
+            Challenge_two two = new Challenge_two();
+            two.GuessNumber();
+            Console.WriteLine();
 
             // two.Fibonacci();
             // Console.WriteLine();
