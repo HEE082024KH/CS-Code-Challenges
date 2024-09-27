@@ -35,11 +35,19 @@ public class Challenge_two
         }
     }
 
-    public void CheckIfNumberIsEvenOrOdd(double a, double b)
+    public void CheckIfNumberIsEvenOrOdd(double a)
     {
         // Todo: Check if a number is even or odd
         // if the number is even, write out "even"
         // if the number is odd, write out "odd"
-        Console.WriteLine("");
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number % 2 == 0)
+        {
+            Console.WriteLine($"{number} is an even number.");
+        }
+        else
+        {
+            Console.WriteLine($"{number} is an odd number.");
+        }
     }
 }

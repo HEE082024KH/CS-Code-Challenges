@@ -46,6 +46,11 @@ class Program
             int n = 0;
             two.Fibonacci(n);
             Console.WriteLine();
+
+            int number = 0;
+            two.CheckIfNumberIsEvenOrOdd(number);
+            Console.WriteLine();
+
         }
 
         ValidateRecursiveFactorial();
