@@ -26,11 +26,11 @@ class Program
             // }
 
             // Challenge one
-            Challenge_one one = new Challenge_one();
+            Challenge_one one = new();
             one.PrintNumbers();
             Console.WriteLine();
 
-            string[] challengeArray = { "one", "two", "three" };
+            string[] challengeArray = ["one", "two", "three"];
             one.PrintStrings(challengeArray);
             Console.WriteLine();
 
@@ -39,12 +39,13 @@ class Program
             Console.WriteLine();
 
             // Challenge two
-            Challenge_two two = new Challenge_two();
+            Challenge_two two = new();
             two.GuessNumber();
             Console.WriteLine();
 
-            // two.Fibonacci();
-            // Console.WriteLine();
+            int n = 0;
+            two.Fibonacci(n);
+            Console.WriteLine();
         }
 
         ValidateRecursiveFactorial();
