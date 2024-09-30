@@ -30,11 +30,11 @@ class Program
             one.PrintNumbers();
             Console.WriteLine();
 
-            string[] challengeArray = ["one", "two", "three"];
+            string[] challengeArray = [];
             one.PrintStrings(challengeArray);
             Console.WriteLine();
 
-            int i = 0;
+            double i = 0;
             one.CheckIfNumberIsPositiveOrNegative(i);
             Console.WriteLine();
 
@@ -43,8 +43,7 @@ class Program
             two.GuessNumber();
             Console.WriteLine();
 
-            int n = 0;
-            two.Fibonacci(n);
+            two.Fibonacci(5);
             Console.WriteLine();
 
             int number = 0;

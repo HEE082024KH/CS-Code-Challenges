@@ -23,13 +23,11 @@ public class Challenge_two
 
     public void Fibonacci(int n)
     {
-        int a = 0, b = 1, c = n;
-        Console.WriteLine($"{a} + {b} = {c}");
-        // Todo: Write out the Fibonacci sequence, tips: use a for loop.
-        for (int i = 2; i < n; i++)
+        int a = 0, b = 1, c;
+        for (int i = 0; i < n; i++)
         {
+            Console.WriteLine(a);
             c = a + b;
-            Console.WriteLine(" {0}", c);
             a = b;
             b = c;
         }

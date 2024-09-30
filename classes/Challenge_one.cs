@@ -12,19 +12,19 @@ public class Challenge_one
     public void PrintStrings(string[] arr)
     {
         /* Todo: Print out each string that is passed to the array as an argument*/
-        string[] challengeArray = { "one", "two", "three" };
+        string[] challengeArray = ["one", "two", "three"];
         foreach (string a in challengeArray)
         {
             Console.WriteLine(a);
         }
     }
 
-    public void CheckIfNumberIsPositiveOrNegative(int number)
+    public void CheckIfNumberIsPositiveOrNegative(double number)
     {
         /*
         Todo: Check if a number is positive, negative or zero.
         */
-        int i = Convert.ToInt32(Console.ReadLine());
+        double i = Convert.ToDouble(Console.ReadLine());
         if (i > 0)
         {
             Console.WriteLine("Number is positive");
