@@ -2,7 +2,7 @@ public class Challenge_two
 {
     public void GuessNumber()
     {
-        int? secret = 69; // Assign the secret value
+        const int secret = 69; // Assign the secret value
         int? guess = 0;
         while (guess != secret)
         {
@@ -11,7 +11,7 @@ public class Challenge_two
             // Todo: Implement the correct conditionals inside the while loop.
             switch (guess)
             {
-                case 69:
+                case secret:
                     Console.WriteLine("Correct answer");
                     break;
                 default:
