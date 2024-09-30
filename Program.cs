@@ -50,6 +50,9 @@ class Program
             two.CheckIfNumberIsEvenOrOdd(number);
             Console.WriteLine();
 
+            // Challenge tree
+            three.FizzBuzz();
+
         }
 
         ValidateRecursiveFactorial();
